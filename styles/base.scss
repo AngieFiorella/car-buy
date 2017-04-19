@@ -1,0 +1,56 @@
+body {
+  font-family: 'Verdana';
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header {
+  background-color: #BA8DBF;
+  color: white;
+  padding: 1px 13px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+        display: inline;
+    }
+  }
+}
+i.shopping {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+aside {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  margin-right: -300px;
+  //display: none;
+  transition: all 1s;
+  .head-card {
+    background-color: #464948;
+    color: white;
+    padding: 10px;
+    font-size: .5em;
+    text-align: center;
+  }
+  .body-card {
+    font-size: .5em;
+    padding: 10px;
+    ul {
+      list-style-type: none;
+    }
+  }
+  .foot-card {
+    background-color: #AA0F4A;
+    color: white;
+    text-align: center;
+    font-size: .7em;
+    padding: 3px 8px;
+  }
+  &.viewcar {
+    margin-right: 0;
+    //display: block;
+  }
+}
